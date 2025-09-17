@@ -1,0 +1,23 @@
+2025-04-11 06:23:31,828 INFO    MainThread:24171 [wandb_setup.py:_flush():67] Current SDK version is 0.19.9
+2025-04-11 06:23:31,828 INFO    MainThread:24171 [wandb_setup.py:_flush():67] Configure stats pid to 24171
+2025-04-11 06:23:31,828 INFO    MainThread:24171 [wandb_setup.py:_flush():67] Loading settings from /root/.config/wandb/settings
+2025-04-11 06:23:31,828 INFO    MainThread:24171 [wandb_setup.py:_flush():67] Loading settings from /content/FedMedICL_COVID/wandb/settings
+2025-04-11 06:23:31,828 INFO    MainThread:24171 [wandb_setup.py:_flush():67] Loading settings from environment variables
+2025-04-11 06:23:31,828 INFO    MainThread:24171 [wandb_init.py:setup_run_log_directory():662] Logging user logs to /content/FedMedICL_COVID/wandb/offline-run-20250411_062331-y1mg9e0t/logs/debug.log
+2025-04-11 06:23:31,828 INFO    MainThread:24171 [wandb_init.py:setup_run_log_directory():663] Logging internal logs to /content/FedMedICL_COVID/wandb/offline-run-20250411_062331-y1mg9e0t/logs/debug-internal.log
+2025-04-11 06:23:31,828 INFO    MainThread:24171 [wandb_init.py:init():781] calling init triggers
+2025-04-11 06:23:31,828 INFO    MainThread:24171 [wandb_init.py:init():786] wandb.init called with sweep_config: {}
+config: {'dataset': {'path': '/content/synthetic_covid_data.csv', 'num_clients': 10, 'num_tasks': 4, 'holdout_last_task': True}, 'model': {'name': 'TabularFFN', 'embed_dim': 8, 'hidden_dim': 32, 'num_layers': 2, 'dropout': 0.0}, 'training': {'algorithm': 'FedAvg', 'rounds_per_task': 10, 'local_epochs': 1, 'local_batch_size': 32, 'learning_rate': 0.001, 'seed': 42}, 'logging': {'output_dir': '/content/FedMedICL_COVID/fed_output', 'use_wandb': True}, '_wandb': {}}
+2025-04-11 06:23:31,828 INFO    MainThread:24171 [wandb_init.py:init():809] starting backend
+2025-04-11 06:23:31,829 INFO    MainThread:24171 [wandb_init.py:init():813] sending inform_init request
+2025-04-11 06:23:31,832 INFO    MainThread:24171 [backend.py:_multiprocessing_setup():101] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2025-04-11 06:23:31,832 INFO    MainThread:24171 [wandb_init.py:init():823] backend started and connected
+2025-04-11 06:23:31,835 INFO    MainThread:24171 [wandb_init.py:init():915] updated telemetry
+2025-04-11 06:23:31,835 INFO    MainThread:24171 [wandb_init.py:init():939] communicating run to backend with 90.0 second timeout
+2025-04-11 06:23:31,941 INFO    MainThread:24171 [wandb_init.py:init():1014] starting run threads in backend
+2025-04-11 06:23:32,304 INFO    MainThread:24171 [wandb_run.py:_console_start():2454] atexit reg
+2025-04-11 06:23:32,304 INFO    MainThread:24171 [wandb_run.py:_redirect():2306] redirect: wrap_raw
+2025-04-11 06:23:32,304 INFO    MainThread:24171 [wandb_run.py:_redirect():2371] Wrapping output streams.
+2025-04-11 06:23:32,304 INFO    MainThread:24171 [wandb_run.py:_redirect():2394] Redirects installed.
+2025-04-11 06:23:32,306 INFO    MainThread:24171 [wandb_init.py:init():1056] run started, returning control to user process
+2025-04-11 06:23:37,950 INFO    MsgRouterThr:24171 [mailbox.py:close():129] [no run ID] Closing mailbox, abandoning 0 handles.

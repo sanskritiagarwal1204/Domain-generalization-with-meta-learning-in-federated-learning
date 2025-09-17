@@ -1,0 +1,60 @@
+{
+  "os": "Linux-6.1.85+-x86_64-with-glibc2.35",
+  "python": "CPython 3.11.12",
+  "startedAt": "2025-04-11T06:13:49.401279Z",
+  "args": [
+    "--dataset",
+    "/content/sample_covid_data.csv",
+    "--algorithm",
+    "FedAvgTemporal",
+    "--num_clients",
+    "10",
+    "--num_tasks",
+    "4",
+    "--rounds",
+    "10",
+    "--local_epochs",
+    "1",
+    "--batch_size",
+    "32",
+    "--lr",
+    "0.001",
+    "--seed",
+    "42",
+    "--output_dir",
+    "/content/FedMedICL_COVID/fed_output",
+    "--use_wandb"
+  ],
+  "program": "/content/FedMedICL_COVID/scripts/train_covid_federated.py",
+  "codePath": "scripts/train_covid_federated.py",
+  "root": "/content/FedMedICL_COVID",
+  "host": "4951a217155e",
+  "executable": "/usr/bin/python3",
+  "codePathLocal": "scripts/train_covid_federated.py",
+  "cpu_count": 6,
+  "cpu_count_logical": 12,
+  "gpu": "NVIDIA A100-SXM4-40GB",
+  "gpu_count": 1,
+  "disk": {
+    "/": {
+      "total": "253055008768",
+      "used": "42567856128"
+    }
+  },
+  "memory": {
+    "total": "89632796672"
+  },
+  "cpu": {
+    "count": 6,
+    "countLogical": 12
+  },
+  "gpu_nvidia": [
+    {
+      "name": "NVIDIA A100-SXM4-40GB",
+      "memoryTotal": "42949672960",
+      "cudaCores": 6912,
+      "architecture": "Ampere"
+    }
+  ],
+  "cudaVersion": "12.4"
+}

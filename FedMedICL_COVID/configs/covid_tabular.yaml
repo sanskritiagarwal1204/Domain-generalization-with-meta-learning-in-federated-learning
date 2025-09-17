@@ -1,0 +1,22 @@
+dataset:
+  name: COVID-19_Surveillance
+  path: /content/COVID-19_Case_Surveillance_Public_Use_Data.csv   # Change this to your CSV’s relative or absolute path.
+  num_clients: 5
+  num_tasks: 4
+  holdout_last_task: true
+model:
+  name: TabTransformer
+  emb_dim: 64
+  hidden_dim: 512
+  num_layers: 4
+  dropout: 0.1
+training:
+  algorithm: FedDG
+  rounds_per_task: 50
+  local_epochs: 1
+  local_batch_size: 4096
+  learning_rate: 0.01
+  seed: 42
+logging:
+  output_dir: ./fed_output   # Directory where logs, checkpoints, and plots will be saved.
+  use_wandb: false

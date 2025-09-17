@@ -1,0 +1,15 @@
+{"time":"2025-04-11T06:13:49.40514219Z","level":"INFO","msg":"stream: starting","core version":"0.19.9","symlink path":"/content/FedMedICL_COVID/wandb/offline-run-20250411_061349-eug5rn6m/logs/debug-core.log"}
+{"time":"2025-04-11T06:13:49.507558531Z","level":"WARN","msg":"GraphQL client is nil, skipping feature loading"}
+{"time":"2025-04-11T06:13:49.507685078Z","level":"INFO","msg":"created new stream","id":"eug5rn6m"}
+{"time":"2025-04-11T06:13:49.507715103Z","level":"INFO","msg":"stream: started","id":"eug5rn6m"}
+{"time":"2025-04-11T06:13:49.507744377Z","level":"INFO","msg":"writer: Do: started","stream_id":"eug5rn6m"}
+{"time":"2025-04-11T06:13:49.507775105Z","level":"INFO","msg":"handler: started","stream_id":"eug5rn6m"}
+{"time":"2025-04-11T06:13:49.507819523Z","level":"INFO","msg":"sender: started","stream_id":"eug5rn6m"}
+{"time":"2025-04-11T06:13:49.511640162Z","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-04-11T06:13:51.514703605Z","level":"INFO","msg":"stream: closing","id":"eug5rn6m"}
+{"time":"2025-04-11T06:13:51.514734533Z","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-04-11T06:13:51.514817755Z","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-04-11T06:13:51.514986615Z","level":"INFO","msg":"handler: closed","stream_id":"eug5rn6m"}
+{"time":"2025-04-11T06:13:51.515000601Z","level":"INFO","msg":"writer: Close: closed","stream_id":"eug5rn6m"}
+{"time":"2025-04-11T06:13:51.515023238Z","level":"INFO","msg":"sender: closed","stream_id":"eug5rn6m"}
+{"time":"2025-04-11T06:13:51.515058373Z","level":"INFO","msg":"stream: closed","id":"eug5rn6m"}
